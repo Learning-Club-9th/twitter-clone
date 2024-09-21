@@ -1,5 +1,5 @@
 import { styled } from "styled-components";
-import { auth, storage } from "../firebase";
+import { auth, db, storage } from "../firebase";
 import { useEffect, useState } from "react";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
 import { updateProfile } from "firebase/auth";
